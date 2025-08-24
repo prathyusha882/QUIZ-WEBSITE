@@ -1,0 +1,55 @@
+# Python/Django related
+__pycache__/
+*.py[cod]
+*.sqlite3
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+env/
+venv/
+ENV/
+*.env
+*.env.*
+
+# Django migrations
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# React/Node.js related
+node_modules/
+build/
+dist/
+frontend_react.zip
+
+# VS Code settings
+.vscode/
+
+# MacOS files
+.DS_Store
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite3
+
+# IDE/editor files
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Coverage reports
+.coverage
+htmlcov/
+.coverage.*
+
+# Docker files (optional, if you generate or use)
+docker-compose.override.yml
+
+# Static/media files if generated
+staticfiles/
+media/
+
+# Cache files
+frontend_react/node_modules/.cache/
